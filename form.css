@@ -1,0 +1,57 @@
+{
+	margin: 0;
+	padding: 0;
+}
+/*reg form css*/
+#reg-form{
+	width: 600px;
+	font-family: sans-serif;
+	background-image: url(pexels-ozgomz-1667427.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	padding: 60px;
+	box-sizing: border-box;
+	margin-top: ;
+}
+.form-group{
+	margin: 10px;
+
+}
+.form-group label{
+	font-size: 18px;
+	color: white;
+}
+.form-group input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 10px limegreen;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	transition: 5s;
+}
+.form-group input:focus{
+	box-shadow: inset 0px 10px 10px yellow,0px 10px 10px tomato;
+
+}
+button{
+	float: left;
+	display: block;
+	width: 25%;
+	box-shadow: inset 0px 10px 10px yellow,0px 10px 10px tomato;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	cursor: pointer;
+	padding: 10px;
+	margin-top: 10px;
+}
+::placeholder{
+	color: green;
+	font-size: 20px;
+	text-transform: uppercase;
+}
